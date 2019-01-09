@@ -1,0 +1,76 @@
+	body {
+		font-size : 15px;
+	}
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	#header1 {
+		background-color: rgb(99, 24, 37);	
+	}
+	#showsize1 {display:block !important;}
+
+	#facade {
+		background-size: 100% ;
+		height:  120px;
+	}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+	#header1 {
+		background-color: blue ;
+	}
+	#showsize2 {display:block !important;}
+	#facade {
+		background-size:  100%;		
+		height:  150px;
+	}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+	#header1 {
+		background-color: green ;
+	}
+	#showsize3 {display:block !important;}
+	#showsize2 {display:none !important;}
+
+	#facade {
+		background-size: 100%;	 ;
+		height:  180px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#header1 {
+		background-color: red ;
+	}
+	#showsize4 {display:block !important;}
+	#showsize3 {display:none !important;}
+
+	#facade {
+		background-size: cover ;
+		height:  200px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	#header1 {
+		background-color: purple ;
+	}
+	#showsize5 {display:block !important;}
+	#showsize4 {display:none !important;}
+
+	#facade {
+		background-size: cover ;
+		height:  300px;
+	}
+} 
